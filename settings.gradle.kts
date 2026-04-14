@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "-81"
+rootProject.name = "F1 Bike Player"
 include(":app")
  
