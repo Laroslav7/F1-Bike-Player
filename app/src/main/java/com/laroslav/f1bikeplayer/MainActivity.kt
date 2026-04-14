@@ -11,7 +11,6 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.annotation.RawRes
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -49,7 +48,7 @@ import kotlinx.coroutines.launch
 
 data class BuiltInSong(
     val title: String,
-    @RawRes val rawResId: Int
+     val rawResId: Int
 )
 
 class MainActivity : ComponentActivity() {
